@@ -19,6 +19,3 @@ let yml = yaml.dump(obj);
 
 // Write the updated YML string back to the file
 fs.writeFileSync('file.yml', yml);
-
-
-</script>
