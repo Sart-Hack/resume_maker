@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <html>
+
+    <head>
+        <title>Resume Input Form</title>
+    </head>
+
+    <body>
+        <form action="submit_form.php" method="post">
+            <label for="resume_avatar">Resume Avatar:</label>
+            <input type="checkbox" id="resume_avatar" name="resume_avatar" value="true" checked>
+            <br><br>
+            <label for="resume_name">Resume Name:</label>
+            <input type="text" id="resume_name" name="resume_name" value="Lisa M. Simpson">
+            <br><br>
+            <label for="resume_title">Resume Title:</label>
+            <input type="text" id="resume_title" name="resume_title" value="VP of Global Communications">
+            <br><br>
+            <label for="resume_contact_email">Resume Contact Email:</label>
+            <input type="email" id="resume_contact_email" name="resume_contact_email"
+                value="lisasimpson@youremailaddress.com">
+            <br><br>
+            <label for="resume_contact_telephone">Resume Contact Telephone:</label>
+            <input type="tel" id="resume_contact_telephone" name="resume_contact_telephone" value="555-7334">
+            <br><br>
+            <label for="resume_contact_address">Resume Contact Address:</label>
+            <input type="text" id="resume_contact_address" name="resume_contact_address"
+                value="742 Evergreen Terrace, Springfield">
+            <br><br>
+            <label for="resume_header_contact_info">Resume Header Contact Info:</label>
+            <input type="text" id="resume_header_contact_info" name="resume_header_contact_info"
+                value="742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com">
+            <br><br>
+            <label for="display_header_contact_info">Display Header Contact Info:</label>
+            <input type="checkbox" id="display_header_contact_info" name="display_header_contact_info" value="false">
+            <br><br>
+            <label for="resume_header_intro">Resume Header Intro:</label>
+            <textarea id="resume_header_intro" name="resume_header_intro">
+      This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise
+    </textarea>
+            <br><br>
+            <label for="resume_looking_for_work">Resume Looking for Work:</label>
+            <select id="resume_looking_for_work" name="resume_looking_for_work">
+                <option value="yes" selected>Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="resume_looking_for_work">Are you looking for work?</label><br>
+            <input type="radio" id="resume_looking_for_work" name="resume_looking_for_work" value="yes" checked><br><br>
+            <label for="resume_section_experience">Do you want to include the experience section in your
+                resume?</label><br>
+            <input type="checkbox" id="resume_section_experience" name="resume_section_experience" value="true"
+                checked><br><br>
+            <label for="resume_section_education">Do you want to include the education section in your
+                resume?</label><br>
+            <input type="checkbox" id="resume_section_education" name="resume_section_education" value="true"
+                checked><br><br>
+            <label for="resume_section_projects">Do you want to include the projects section in your resume?</label><br>
+            <input type="checkbox" id="resume_section_projects" name="resume_section_projects" value="true"
+                checked><br><br>
+            <label for="resume_section_skills">Do you want to include the skills section in your resume?</label><br>
+            <input type="checkbox" id="resume_section_skills" name="resume_section_skills" value="true" checked><br><br>
+            <label for="resume_section_recognition">Do you want to include the recognition section in your
+                resume?</label><br>
+            <input type="checkbox" id="resume_section_recognition" name="resume_section_recognition" value="true"
+                checked><br><br>
+            <label for="resume_section_links">Do you want to include the links section in your resume?</label><br>
+            <input type="checkbox" id="resume_section_links" name="resume_section_links" value="true" checked><br><br>
+            <label for="resume_section_associations">Do you want to include the associations section in your
+                resume?</label><br>
+            <input type="checkbox" id="resume_section_associations" name="resume_section_associations" value="true"
+                checked><br><br>
+            <label for="resume_github_url">GitHub URL:</label><br>
+            <input type="text" id="resume_github_url" name="resume_github_url"
+                value="https://github.com/jglovier/resume-template"><br><br>
+            <label for="resume_twitter_url">Twitter URL:</label><br>
+            <input type="text" id="resume_twitter_url" name="resume_twitter_url"
+                value="http://twitter.com/jglovier"><br><br>
+            <label for="resume_linkedin_url">LinkedIn URL:</label><br>
+            <input type="text" id="resume_linkedin_url" name="resume_linkedin_url"
+                value="https://www.linkedin.com/in/joelglovier"><br><br>
+        </form>
+
+    </body>
+
+    </html>
