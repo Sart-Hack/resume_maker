@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--meta Tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <html>
+
+    <head>
+        <title>Resume Input Form</title>
+    </head>
+
+    <body>
+        <div class="row g-5">
+            <form class="Resume container" id="ResumeForm">
+
+                <div class="card">
+
+                    <div class="card-body border-dark">
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_avatar">
+                                    Resume Avatar:
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_avatar" name="resume_avatar"
+                                    value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_name" class="form-label">Resume Name:</label>
+                            <input type="text" id="resume_name" class="form-control" name="resume_name"
+                                placeholder="Name" aria-label="resume_name">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_title" class="form-label">Resume Title:</label>
+                            <input type="text" id="resume_title" name="resume_title" class="form-control"
+                                name="resume_name" placeholder="Title" aria-label="Title">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_contact_email" class="form-label">Resume Contact Email:</label>
+                            <input type="email" class="form-control" id="resume_contact_email"
+                                name="resume_contact_email" placeholder="Email">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_contact_telephone" class="form-label">Resume Contact Telephone:</label>
+                            <input type="tel" id="resume_contact_telephone" name="resume_contact_telephone"
+                                class="form-control" placeholder="Contact">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_contact_address" class="form-label">Resume Contact Address:</label>
+                            <input type="text" class="form-control" id="resume_contact_address"
+                                name="resume_contact_address" placeholder="Address">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_header_contact_info" class="form-label">Resume Header Contact
+                                Info:</label>
+                            <input type="text" class="form-control" id="resume_header_contact_info"
+                                name="resume_header_contact_info"
+                                placeholder="742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com">
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="display_header_contact_info">
+                                    Display Header Contact Info:
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="display_header_contact_info"
+                                    name="display_header_contact_info" value="false">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_header_intro">Resume Header Intro:</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" name="resume_header_intro" placeholder="Comment"
+                                    id="resume_header_intro" style="height: 100px"></textarea>
+                                <label for="resume_header_intro">This is the executive summary.</label>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col col-md-6">
+                                <label for="resume_select_for_work" class="form-label">Resume Looking for Work:</label>
+                                <select id="resume_select_for_work" class="form-select" name="resume_select_for_work">
+                                    <option selected>Choose</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="form-check">
+                                    <label for="resume_looking_for_work" class="form-check-label">Are you looking for
+                                        work?</label>
+                                    <input class="form-check-input" type="radio" name="resume_looking_for_work"
+                                        value="yes" id="resume_looking_for_work" checked>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_experience">
+                                    Do you want to include the experience section in your
+                                    resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_experience"
+                                    name="resume_section_experience" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_education">
+                                    Do you want to include the education section in your
+                                    resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_education"
+                                    name="resume_section_education" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_projects">
+                                    Do you want to include the projects section in your
+                                    resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_projects"
+                                    name="resume_section_projects" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_skills">
+                                    Do you want to include the skills section in your resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_skills"
+                                    name="resume_section_skills" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_recognition">
+                                    Do you want to include the recognition section in your
+                                    resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_recognition"
+                                    name="resume_section_recognition" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_links">
+                                    Do you want to include the links section in your resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_links"
+                                    name="resume_section_links" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="form-check">
+                                <label class="form-check-label" for="resume_section_associations">
+                                    Do you want to include the associations section in your
+                                    resume?
+                                </label>
+                                <input class="form-check-input" type="checkbox" id="resume_section_associations"
+                                    name="resume_section_associations" value="true" checked>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_github_url" class="form-label">GitHub URL:</label>
+                            <input type="text" class="form-control" id="resume_github_url" name="resume_github_url"
+                                placeholder="https://github.com/jglovier/resume-template">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_twitter_url" class="form-label">Twitter URL:</label>
+                            <input type="text" class="form-control" id="resume_twitter_url" name="resume_twitter_url"
+                                placeholder="http://twitter.com/jglovier">
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="resume_linkedin_url" class="form-label">LinkedIn URL:</label>
+                            <input type="text" class="form-control" id="resume_linkedin_url" name="resume_linkedin_url"
+                                placeholder="https://www.linkedin.com/in/joelglovier">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="submit">Get Your Resume</button>
+
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+        <!--JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+
+    </html>
